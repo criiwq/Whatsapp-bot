@@ -8,11 +8,11 @@ import time
 driver = webdriver.Chrome()
 driver.get('https://web.whatsapp.com')
 #information necessary 
-name = input("Who do you want to send it to?\n")
-msg = input("What is the message?\n")
-count = int(input("How many times do you want to send the message?\n"))
-pause = int(input("After how many messages do you want a short pause?\n"))
-length = int(input("How long is the pause?\n"))
+name = input("Who do you want to send it to?\Alexia")
+msg = input("What is the message?\beans")
+count = int(input("How many times do you want to send the message?\100"))
+pause = int(input("After how many messages do you want a short pause?\0"))
+length = int(input("How long is the pause?\0"))
 #before you press enter here, make sure 
 input("ready?")
 
